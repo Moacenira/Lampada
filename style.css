@@ -1,0 +1,31 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:blue
+}
+body{
+  background-color: burlywood;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: blue;
+  background: cadetblue;
+
+}
+button:hover{
+  background: rgb(169, 196, 197);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 500px; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+}
